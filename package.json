@@ -4,8 +4,8 @@
   "description": "",
   "main": "mammoth.js",
   "scripts": {
-    "start": "./start.sh",
-    "build": "$(npm bin)/parcel build ./src/index.html"
+    "build": "$(npm bin)/parcel build ./src/index.html",
+    "start": "parcel ./src/index.html --open"
   },
   "keywords": [],
   "author": "",
