@@ -7,7 +7,7 @@ An alternative to using create-react-app with Parcel
 ### Clone
 
 ```bash
-degit https://github.com/DarrenXu94/new-react-app
+degit https://github.com/DarrenXu94/new-react-app#main
 ```
 
 Degit removes all the repository git information.
