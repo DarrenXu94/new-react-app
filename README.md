@@ -7,6 +7,9 @@ An alternative to using create-react-app with Parcel
 ### Clone
 
 ```bash
+npm install -g degit
+
+
 degit https://github.com/DarrenXu94/new-react-app#main
 ```
 
