@@ -1,12 +1,11 @@
-import * as React from "react";
-// routing, etc.
+import React from "react";
 
-export default class App extends React.Component {
-  public render() {
-    return (
-      <div className="container">
-        <h1>Hello world!</h1>
-      </div>
-    );
-  }
+export interface AppProps {}
+
+export default function App({}: AppProps) {
+  return (
+    <div className="container">
+      <h1>Hello world</h1>
+    </div>
+  );
 }
